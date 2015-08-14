@@ -1,17 +1,28 @@
+
 def logger(func):
 	def inner(*args, **kwargs): #1
 		print "Arguments were: %s, %s" % (args, kwargs)
 		return func(*args, **kwargs) #2
 	return inner
 
+# this
+def foo3():
+	return 3
+foo3 = logger(foo3)
+
+# can also be written as
 @logger
-... def foo1(x, y=1):
-...     return x * y
->>> @logger
-... def foo2():
-...     return 2
->>> foo1(5, 4)
-Arguments were: (5, 4), {}
-20
->>> foo1(1)
+def foo1(x, y=1):
+	return x * y
+
+@logger
+def foo2():
+	return 2
+
+print foo1(5, 4)
+
+print foo1(1)
+
+print foo2()
 	
+print foo3()
