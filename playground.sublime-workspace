@@ -76,6 +76,14 @@
 	"buffers":
 	[
 		{
+			"file": "simplePQ.py",
+			"settings":
+			{
+				"buffer_size": 1165,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "decorator.py",
 			"settings":
 			{
@@ -103,7 +111,7 @@
 			"file": "stringformat.py",
 			"settings":
 			{
-				"buffer_size": 1067,
+				"buffer_size": 1069,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,15 +127,39 @@
 			"file": "testpath.py",
 			"settings":
 			{
-				"buffer_size": 64,
+				"buffer_size": 198,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "testimp.py",
+			"file": "arraylooping.py",
 			"settings":
 			{
-				"buffer_size": 25,
+				"buffer_size": 610,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kalman.py",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/foo1.py",
+			"settings":
+			{
+				"buffer_size": 180,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/bar1.py",
+			"settings":
+			{
+				"buffer_size": 58,
 				"line_ending": "Windows"
 			}
 		}
@@ -221,6 +253,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/thijs.hosman/Documents/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest/strandtest.ino",
+		"/C/Users/thijs.hosman/Documents/developer/python-playground/testimp.py",
 		"/C/Users/thijs.hosman/Documents/developer/python-playground/playground.sublime-project",
 		"/C/Users/thijs.hosman/Documents/developer/python-playground/lib/__init__.py",
 		"/C/Users/thosman/Documents/Development/python/python-playground/playground.sublime-project",
@@ -346,11 +380,39 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "simplePQ.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "decorator.py",
 					"semi_transient": false,
 					"settings":
@@ -374,11 +436,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "classAndStaticMethod.py",
 					"semi_transient": false,
 					"settings":
@@ -390,8 +452,8 @@
 						"selection":
 						[
 							[
-								248,
-								248
+								477,
+								477
 							]
 						],
 						"settings":
@@ -400,15 +462,15 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 225.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "abc_example.py",
 					"semi_transient": false,
 					"settings":
@@ -420,8 +482,8 @@
 						"selection":
 						[
 							[
-								410,
-								410
+								203,
+								203
 							]
 						],
 						"settings":
@@ -429,27 +491,27 @@
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "stringformat.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1067,
+						"buffer_size": 1069,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								492,
-								492
+								616,
+								616
 							]
 						],
 						"settings":
@@ -461,11 +523,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "metaclasses.py",
 					"semi_transient": false,
 					"settings":
@@ -477,8 +539,8 @@
 						"selection":
 						[
 							[
-								48,
-								48
+								52,
+								52
 							]
 						],
 						"settings":
@@ -489,24 +551,52 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "testpath.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 64,
+						"buffer_size": 198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "arraylooping.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
 							]
 						],
 						"settings":
@@ -521,20 +611,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "testimp.py",
+					"buffer": 8,
+					"file": "kalman.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25,
+						"buffer_size": 27,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								22,
+								22
 							]
 						],
 						"settings":
@@ -546,6 +636,62 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/foo1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "lib/bar1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -594,7 +740,7 @@
 	{
 		"height": 152.0
 	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "python 2.7 dev conda ",
 	"project": "playground.sublime-project",
 	"replace":
 	{
