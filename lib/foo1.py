@@ -1,5 +1,8 @@
 def foo():
-	print 'foo1' 
+	print 'foo' 
+
+def foo2():
+	print 'foo2'
 
 def foofoo():
 	print 'foofoo'

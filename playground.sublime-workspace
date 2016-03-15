@@ -76,35 +76,59 @@
 	"buffers":
 	[
 		{
-			"file": "decorator.py",
-			"settings":
-			{
-				"buffer_size": 361,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "testpath.py",
 			"settings":
 			{
-				"buffer_size": 64,
+				"buffer_size": 782,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "metaclasses.py",
+			"file": "recursion.py",
 			"settings":
 			{
-				"buffer_size": 54,
+				"buffer_size": 1226,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "playground.sublime-project",
+			"file": "dict.py",
 			"settings":
 			{
-				"buffer_size": 938,
-				"line_ending": "Unix"
+				"buffer_size": 29,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/__init__.py",
+			"settings":
+			{
+				"buffer_size": 26,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/bar1.py",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/foo1.py",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "stringformat.py",
+			"settings":
+			{
+				"buffer_size": 1069,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -115,17 +139,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 634.0,
-		"last_filter": "Package Control: ",
+		"height": 263.0,
+		"last_filter": "disli",
 		"selected_items":
 		[
 			[
-				"Package Control: ",
-				"Package Control: List Packages"
-			],
-			[
 				"disli",
 				"Anaconda: Disable linting on this file"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
 			],
 			[
 				"anaconda",
@@ -181,10 +205,15 @@
 	},
 	"file_history":
 	[
-		"/C/Users/thosman/Documents/DM/iprep_release/iPrep gtk scripts/iprep_general.s",
-		"/C/Users/thosman/Documents/Development/python/python-playground/playground.sublime-project",
-		"/C/Users/thosman/Documents/Development/python/default_python2.7.sublime-project",
 		"/C/Users/thosman/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/thosman/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Users/thosman/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/thosman/Documents/Development/python/python-playground/metaclasses.py",
+		"/C/Users/thosman/Documents/Development/python/python-playground/playground.sublime-project",
+		"/C/Users/thosman/Documents/Development/python/python-playground/decorator.py",
+		"/C/Users/thosman/Documents/Development/python/python-playground/lib/foo1.py",
+		"/C/Users/thosman/Documents/DM/iprep_release/iPrep gtk scripts/iprep_general.s",
+		"/C/Users/thosman/Documents/Development/python/default_python2.7.sublime-project",
 		"/C/Users/thosman/Documents/Development/python/python-playground/formatting.py",
 		"//ca-fs/freedisk/thijs/Aries_IPrep/ARxxCE/Terminal.ini",
 		"//ca-fs/freedisk/thijs/Aries_IPrep/ARxxCE/prog15.8k",
@@ -310,79 +339,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "decorator.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 361,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "testpath.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 64,
+						"buffer_size": 782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								365,
+								365
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "metaclasses.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 54,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								52
-							]
-						],
-						"settings":
-						{
+							"bs_sintax": "python",
+							"buffer_scroll_name": "9d6a9d44",
+							"spell_check": false,
 							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -393,32 +369,188 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "playground.sublime-project",
+					"buffer": 1,
+					"file": "recursion.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 938,
+						"buffer_size": 1226,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								400,
-								400
+								936,
+								936
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "87d9b9f7",
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 299.0,
+						"translation.y": 1044.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dict.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "85230527",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python",
+							"buffer_scroll_name": "291616a4",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/bar1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python",
+							"buffer_scroll_name": "3f9df8b4",
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/foo1.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python",
+							"buffer_scroll_name": "7c8aeef7",
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "stringformat.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1069,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python",
+							"buffer_scroll_name": "c7d7c563",
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -457,7 +589,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 245.0
+		"height": 313.0
 	},
 	"output.find_results":
 	{
