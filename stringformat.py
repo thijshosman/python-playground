@@ -2,7 +2,7 @@
 temp1 = 1.2221122
 temp2 = 1.3
 
-print "%.1f %.1f" % (temp1,temp2)
+print "%.1fC %.0fF" % (temp1,temp2)
 
 def table_things(**kwargs):
 	right_color = [1,2,3]

@@ -1,9 +1,13 @@
 def foo():
-	print 'foo' 
+	print 'foo1' 
 
-def bar():
-	print 'bar'
+def foofoo():
+	print 'foofoo'
 
+class fooclass(object):
+	def __init__(self):
+		print 'init fooclass'
 
 if __name__=='__main__':
     foo()
+    #abar = bar()
