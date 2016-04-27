@@ -36,7 +36,7 @@ def fibo(n):
 		print cur,i
 	return cur
 
-fibo(6)
+#fibo(6)
 
 # recur fibo
 def fiborn(n):
@@ -46,21 +46,23 @@ def fiborn(n):
 		return 1
 	return fiborn(n-1)+fiborn(n-2)
 
-print fiborn(9)
+#print fiborn(15)
 
-#recur fibo with remembering
+# recur fibo with remembering
 table = {}
 def fibor(n):
-	if n==0 or n == 1:
+	if n==0:
+		return 0
+	if n == 1:
 		return 1
 	else:
 		if n not in table:
-			table[n] = fiborn(n-1)+fiborn(n-2)
+			table[n] = fibor(n-1)+fibor(n-2)
 			return table[n]
 		else:
 			return table[n]
 
-print 'fibor: recursive with remembering: %d' % fibor(10)
+print 'fibor: recursive with remembering: %d' % fibor(15)
 
 
 
@@ -73,7 +75,7 @@ def memo1(fn,arg):
 	print 'memo for arg %d is %d' % (arg,memo[arg])
 	return memo[arg]
 
-fibm = memo1(fiborn,9)
+fibm = memo1(fiborn,15)
 print fibm
 
 
